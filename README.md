@@ -32,8 +32,8 @@ esqueleto-prank/
 ### Opção 1: Clonando via Git (Recomendado)
 Abra o terminal (Prompt de Comando ou PowerShell) e execute:
 ```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
-cd NOME_DO_REPOSITORIO
+git clone https://github.com/OtavioTadeu/esqueleto.git
+cd esqueleto
 ```
 
 ### Opção 2: Download direto em arquivo ZIP
@@ -131,10 +131,9 @@ git init
 git add .
 git commit -m "feat: versao inicial do esqueleto prank"
 git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/esqueleto-prank.git
+git remote add origin https://github.com/OtavioTadeu/esqueleto.git
 git push -u origin main
 ```
-*(Substitua `SEU_USUARIO` e `esqueleto-prank` pelos dados do seu repositório no GitHub).*
 
 ### 🎁 Dica: Criando uma Release com o `.exe`
 O arquivo `.exe` não deve ser enviado no repositório Git padrão para não pesar o repositório (ele já está no `.gitignore`). Para disponibilizá-lo para download direto no GitHub:
