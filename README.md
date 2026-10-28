@@ -1,6 +1,6 @@
-# 💀 Esqueleto Prank (Esqueleto na Tela)
+# 💀 Esqueleto (Esqueleto na Tela)
 
-Um script divertido em Python que faz um esqueleto animado atravessar correndo a tela do seu computador em intervalos aleatórios de tempo.
+Um script em Python que faz um esqueleto atravessar correndo a tela do seu computador em intervalos aleatórios de tempo.
 
 O programa roda silenciosamente em segundo plano (sem exibir tela de terminal), com fundo transparente sobreposto a qualquer janela aberta.
 
@@ -117,28 +117,4 @@ FRAME_DELAY_MS = 30                       # Intervalo entre os quadros da anima�
 - **Para alterar o intervalo:** mude `MIN_MINUTES` e `MAX_MINUTES` (ex: `MIN_MINUTES = 5` e `MAX_MINUTES = 15` para aparecer aleatoriamente entre 5 e 15 minutos).
 - **Para alterar a velocidade:** diminua `TEMPO_TRAVESSIA_MS` para o esqueleto passar mais rápido, ou aumente para que passe mais devagar.
 
----
 
-## 📤 Como Subir este Projeto para o Seu GitHub
-
-Se você é o criador do projeto e quer colocá-lo no seu próprio GitHub pela primeira vez:
-
-1. Acesse [github.com/new](https://github.com/new) e crie um novo repositório (ex: `esqueleto-prank`). Deixe desmarcada a opção de adicionar README (já temos um pronto aqui).
-2. Abra o terminal na pasta do projeto e execute os seguintes comandos:
-
-```bash
-git init
-git add .
-git commit -m "feat: versao inicial do esqueleto prank"
-git branch -M main
-git remote add origin https://github.com/OtavioTadeu/esqueleto.git
-git push -u origin main
-```
-
-### 🎁 Dica: Criando uma Release com o `.exe`
-O arquivo `.exe` não deve ser enviado no repositório Git padrão para não pesar o repositório (ele já está no `.gitignore`). Para disponibilizá-lo para download direto no GitHub:
-1. Vá até a página do seu repositório no GitHub.
-2. No menu lateral direito, clique em **Releases** -> **Create a new release**.
-3. Defina uma tag (ex: `v1.0.0`).
-4. Arraste e solte o arquivo `esqueleto.exe` (da pasta `dist`) no campo de anexos (Attach binaries).
-5. Clique em **Publish release**. Agora qualquer pessoa pode baixar o `.exe` pronto com apenas um clique!
